@@ -14,6 +14,7 @@ class Originator:
         vars(self).clear()
         vars(self).update(previous_state)
 
+
 if __name__ == '__main__':
     originator = Originator()
     print(vars(originator))
